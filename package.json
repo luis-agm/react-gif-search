@@ -38,6 +38,8 @@
     "react-error-overlay": "^1.0.9",
     "react-modal": "^2.2.1",
     "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
     "redux": "^3.7.1",
     "redux-promise": "^0.5.3",
     "style-loader": "0.18.2",
@@ -87,10 +89,16 @@
   },
   "eslintConfig": {
     "extends": "react-app",
-    "rules":{
-      "semi": ["error", "never"],
+    "rules": {
+      "semi": [
+        "error",
+        "never"
+      ],
       "no-extra-semi": 1,
-      "space-in-parens": ["warn","always"]
+      "space-in-parens": [
+        "warn",
+        "always"
+      ]
     }
   }
 }
