@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const GifItem = ({gif, onGifSelect}) => {
+const GifItem = ( {gif, onGifSelect} ) => {
   return (
-    <div className='gif-item' onClick={()=> onGifSelect(gif)}>
+    <div className='gif-item' onClick={()=> onGifSelect( gif )}>
       <img src={gif.images.downsized.url} alt='Animated GIF.'/>
     </div>
   )
-};
+}
 
-export default GifItem;
+export default GifItem

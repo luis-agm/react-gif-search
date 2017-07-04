@@ -1,9 +1,9 @@
-import React from 'react';
-import Modal from 'react-modal';
+import React from 'react'
+import Modal from 'react-modal'
 
-const GifModal = (props) => {
-  if (!props.selectedGif) {
-    return <div></div>;
+const GifModal = ( props ) => {
+  if ( !props.selectedGif ) {
+    return <div></div>
   }
 
   return (
@@ -18,7 +18,7 @@ const GifModal = (props) => {
         <button onClick={() => props.onRequestClose()}>close</button>
       </div>
     </Modal>
-  );
-};
+  )
+}
 
-export default GifModal;
+export default GifModal
