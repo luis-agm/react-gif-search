@@ -8,6 +8,7 @@ const GifModal = ( props ) => {
 
   return (
     <Modal
+      contentLabel='gifsample'
       isOpen={ props.modalIsOpen }
       onRequestClose={ () => props.onRequestClose() }>
       <div className='gif-modal'>

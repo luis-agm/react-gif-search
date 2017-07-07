@@ -15,7 +15,6 @@ export default class App extends React.Component {
             <ConnectedRouter history={history}>
                 <div>
                     <Header />
-
                     <div className="container">
                         <Route exact path="/" component={ Home }/>
                         <Route path="/signup" component={ Signup } />
